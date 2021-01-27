@@ -1,4 +1,6 @@
 #!/bin/bash
 
 
-echo "/home/lepc72/holberton-system_engineering-devops/0x00-shell_basics"
+
+
+pwd
