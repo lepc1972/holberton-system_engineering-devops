@@ -1,3 +1,3 @@
 #shell project#
 
-Some shell commands and other stuff
+bash scripts and other stuff
