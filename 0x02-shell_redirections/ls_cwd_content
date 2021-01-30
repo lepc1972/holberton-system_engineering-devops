@@ -1,0 +1,16 @@
+total 56
+drwxr-xr-x 2 lepc72 lepc72 4096 ene 29 22:13 .
+drwxr-xr-x 6 lepc72 lepc72 4096 ene 29 17:14 ..
+-rwxr-xr-x 1 lepc72 lepc72   32 ene 29 17:31 0-hello_world
+-rwxr-xr-x 1 lepc72 lepc72   29 ene 29 17:45 1-confused_smiley
+-rwxr-xr-x 1 lepc72 lepc72   28 ene 29 17:56 2-hellofile
+-rwxr-xr-x 1 lepc72 lepc72   38 ene 29 18:28 3-twofiles
+-rwxr-xr-x 1 lepc72 lepc72   29 ene 29 18:35 4-lastlines
+-rwxr-xr-x 1 lepc72 lepc72   29 ene 29 18:43 5-firstlines
+-rwxr-xr-x 1 lepc72 lepc72   40 ene 29 19:50 6-third_line
+-rwxr-xr-x 1 lepc72 lepc72  102 ene 29 22:00 7-file
+-rwxr-xr-x 1 lepc72 lepc72   34 ene 29 22:12 8-cwd_state
+-rw-r--r-- 1 lepc72 lepc72   17 ene 29 22:01 \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)
+-rw-r--r-- 1 lepc72 lepc72  803 ene 29 19:55 iacta
+-rw-r--r-- 1 lepc72 lepc72    0 ene 29 22:13 ls_cwd_content
+-rw-r--r-- 1 lepc72 lepc72   70 ene 29 17:25 README.md
