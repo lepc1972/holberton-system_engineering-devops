@@ -1,4 +1,4 @@
 #!/bin/bash
-cut -d":" -f 1,6 /etc/passwd | sort
+cat /etc/passwd | sort -d | cut -d ":" -f 1,6
 
 
