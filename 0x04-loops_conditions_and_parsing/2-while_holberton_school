@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# this script show Holberton 10 times with wile
+
+x=0
+while ((x < 10));
+do
+    echo "Holberton School";
+    ((x++))
+done
