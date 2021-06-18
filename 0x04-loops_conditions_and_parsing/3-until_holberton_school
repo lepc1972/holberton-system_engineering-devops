@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# script that give us 10 times holberton school using until
+# This script is displaying "Holberton School" 10 times
 
-x=0
-until ((x == 10))
+i=0
+until (( i == 10 ))
 do
-    echo "Holberton school";
-    ((x++));
+    echo "Holberton School";
+    (( i++ ));
 done
