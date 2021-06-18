@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# script that give us 10 times holberton school using until
+
+x=0
+until ((x == 10));
+do
+    echo "Holberton school";
+    ((x++))
+done
