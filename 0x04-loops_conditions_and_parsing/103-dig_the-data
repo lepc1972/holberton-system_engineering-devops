@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# calculate and put num occurences up front; order from greatest to least
+# http status and ordered > to <
 
 file="apache-access.log"
 awk '{print $1, $9}' $file | sort | uniq -c | sort -nr
