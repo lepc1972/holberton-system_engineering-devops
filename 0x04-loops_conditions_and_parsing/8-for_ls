@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# print content current directory without #-
+
+files="$(ls)"
+for f in $files;
+do
+    echo "$f" | cut -d "-" -f2
+done
