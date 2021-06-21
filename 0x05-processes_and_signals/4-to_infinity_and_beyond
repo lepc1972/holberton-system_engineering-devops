@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Script that give us infinity loop, sleep 2 and ctrl c for stop
+
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
