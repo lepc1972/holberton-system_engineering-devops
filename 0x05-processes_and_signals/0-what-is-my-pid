@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this scrip displays my PID
+
+echo $$
