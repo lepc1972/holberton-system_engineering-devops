@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# this script receives a kill signal fron an other terminal and an other script
+
+msg()
+{
+    echo "I am invincible!!!"
+}
+trap "msg" SIGTERM
+
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+
+done
