@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# display  a for all processes, u for users, x for tty, f for hierichal
+# display  a  all processes, u  users, x  tty, f  hierichal
 
 ps -auxf
