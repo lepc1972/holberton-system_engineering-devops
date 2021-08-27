@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# bash function that give us dns info
+
+subdomain_function ()
+{
+    rec=( $(dig "$2.$1" | awk '/;; ANSWER SECTION:/{getline; print $4,$5}') )
+    sub_d=${rec[0]}
+    dest=${rec[1]}
+    echo "The subdomain $2 is a $sub_d rec and points to $dest"
+}
+
+if [ $# -eq 2 ]; then
+    subdomain_function "$1" "$2"
+elif [ $# -eq 1 ]; then
+    subdomain_function "$1" www
+    subdomain_function "$1" lb-01
+    subdomain_function "$1" web-01
+    subdomain_function "$1" web-02
+fi
