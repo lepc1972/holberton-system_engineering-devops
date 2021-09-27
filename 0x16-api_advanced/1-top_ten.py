@@ -3,6 +3,7 @@
 
 
 def top_ten(subreddit):
+    """first 10"""
     import requests
 
     web = requests.get("https://www.reddit.com/r/{}/hot.json?limit=10"
