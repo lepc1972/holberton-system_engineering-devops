@@ -8,8 +8,7 @@ def top_ten(subreddit):
 
     web = requests.get("https://www.reddit.com/r/{}/hot.json?limit=10"
                        .format(subreddit),
-                       headers={"User-Agent": "Mozilla",
-                                "Content-Type": "application/json"},
+                       headers={"User-Agent": "Mozilla"},
                        allow_redirects=False,)
 
     if web.status_code >= 300:
